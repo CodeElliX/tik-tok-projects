@@ -1,0 +1,58 @@
+h1 {
+  margin: 40px;
+  color: rgb(33, 237, 237);
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px black;
+}
+.content {
+}
+.string {
+  margin-bottom: 20px;
+  width: 300px;
+  display: flex;
+}
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: blueviolet;
+  margin: auto;
+}
+.text {
+  background-color: rgb(149, 127, 176);
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  color: azure;
+}
+.word {
+  color: rgb(11, 11, 11);
+}
+span {
+  color: rgb(33, 237, 237);
+}
+/* Смена экрана при наведении ховера */
+.box1:hover {
+  transform: scale(0.75);
+}
+.box2:hover {
+  transform: scaleX(0.5);
+}
+.box3:hover {
+  transform: rotate(45deg);
+}
+.box4:hover {
+  transform: skewX(-25deg);
+}
+.box5:hover {
+    transform: skew(20deg, 5deg);
+  }
+  .box6:hover {
+    transform: translate(5px, 12px);
+  }
+  .box7:hover {
+    transform: matrix(0.7, -0.5, 0.5, 0.4, 0.5, 0.7);
+  }
+ 
